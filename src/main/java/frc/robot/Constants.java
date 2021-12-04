@@ -20,4 +20,8 @@ public final class Constants {
     public static final int ultrasonicMotorPortNum = 7;
     public static final int motorIndex = 0;
     public static final double kValueToInches = 0.125;
+    public static int stopIntakeDistance = 100;
+    public static int stopOuttakeDistance = 100;
+    public static double startingSpeed = 0.1;
+    public static int startIntakeDistance = 300;
 }

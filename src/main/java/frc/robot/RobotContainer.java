@@ -46,11 +46,6 @@ public class RobotContainer {
    */
   private void configureButtonBindings() {
 
-    if (Robot.intakeSubsystem.getDistance() < 300) {// TODO: Constant to start intaking {
-      IntakePanel intake = new IntakePanel(); // should start intaking
-      Timer.delay(3);
-      OutputPanel output = new OutputPanel(); // Once sensor distance is larger than a number, stop executing (100)
-    }
   }
 
   /**

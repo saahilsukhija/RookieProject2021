@@ -8,6 +8,7 @@ import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.Constants;
 import frc.robot.Robot;
 import frc.robot.subsystems.IntakeSubsystem;
+import frc.robot.subsystems.IntakeSubsystem.IntakeState;
 
 public class IntakePanel extends CommandBase {
   /** Creates a new IntakePanel. */
@@ -18,7 +19,7 @@ public class IntakePanel extends CommandBase {
   // Called when the command is initially scheduled.
   @Override
   public void initialize() {
-
+    Robot.intakeSubsystem.setState(IntakeState.INTAKING);
   }
 
   // Called every time the scheduler runs while the command is scheduled.

@@ -18,7 +18,7 @@ public class IntakeSubsystem extends SubsystemBase {
   public AnalogInput ultrasonic;
 
   public enum IntakeState {
-    INTAKING, OUTTAKING, NOTHING
+    INTAKING, OUTTAKING, NOTHING, INTAKINGANDOUTAKING
   }
 
   public IntakeState state;
